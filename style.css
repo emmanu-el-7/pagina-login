@@ -41,6 +41,11 @@ nav {
     text-transform: uppercase;
 }
 
+.github > img {
+    border-radius: 20rem;
+    width: 2.5rem;
+}
+
 h2 {
     font-family: Teko;
     text-transform: uppercase;
@@ -85,12 +90,15 @@ p {
     text-align: center;
 }
 
-input {
-    padding-bottom: 1.5em;
-    margin-bottom: 1.5em;
-    border: 1px solid #363636;
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
     border-radius: 0.5rem;
+    border: 1px solid #363636;
     background-color: #381b04;
+    font-size: 1rem;
+    line-height: 1.5;
     color: aliceblue;
     text-align: center;
 }
