@@ -149,6 +149,10 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
 }
 
 @media screen and (max-width: 768px) {
+    .logo {
+        font-size: 3.5vh
+    }
+    
     .login > h2 {
         font-size: 3vh;
     }
